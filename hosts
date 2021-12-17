@@ -1,0 +1,15 @@
+[grupo1]
+192.168.60.22
+
+[grupo2]
+192.168.60.23
+192.168.60.24
+
+[todos:children]
+grupo1
+grupo2
+
+[todos:vars]
+ansible_user=vagrant
+ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+

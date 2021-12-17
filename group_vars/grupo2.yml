@@ -1,0 +1,5 @@
+---
+path_directorio: ~/Downloads/
+file_name: archivo_del_diego.txt
+permissions: '777'
+...
